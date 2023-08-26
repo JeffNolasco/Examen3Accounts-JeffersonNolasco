@@ -1,0 +1,95 @@
+{
+	"info": {
+		"_postman_id": "427fb99b-6d77-40ab-9129-b24e2b168118",
+		"name": "Accounts",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25367784"
+	},
+	"item": [
+		{
+			"name": "Listar todas las tasas de interes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8091/api/v1/interestrates",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8091",
+					"path": [
+						"api",
+						"v1",
+						"interestrates"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear tasa de interes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8091/api/v1/interestrates",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8091",
+					"path": [
+						"api",
+						"v1",
+						"interestrates"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear ProductAccount",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8091/api/v1/productsaccounts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8091",
+					"path": [
+						"api",
+						"v1",
+						"productsaccounts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener ProductAccount por ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8091/api/v1/productsaccounts/{{id}}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8091",
+					"path": [
+						"api",
+						"v1",
+						"productsaccounts",
+						"{{id}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
